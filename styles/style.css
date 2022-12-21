@@ -1,0 +1,58 @@
+body {
+    font-family: 'Barlow', sans-serif;
+}
+#logo {
+    float: left;
+}
+#btn-ham-menu {
+    float: right;
+    border-style: none;
+    background-color: #fff;
+}
+#btn-ham-menu :hover {
+    cursor: pointer;
+}
+#btn-close-menu {
+    float: right;
+    display: none;
+    border-style: none;
+    background-color: #fff;
+}
+#btn-close-menu :hover {
+    cursor: pointer;
+}
+#navigation-menu {
+   display: none;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    border-style: solid;
+    border-width: 1px;
+}
+li {
+    text-align: center;
+    text-transform: uppercase;
+    list-style: none;
+    padding: 10px;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+#nav-pricing {
+    border-bottom-style: solid;
+    border-width: 1px;
+}
+
+
+
+#attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+#attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
